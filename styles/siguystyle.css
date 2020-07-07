@@ -172,7 +172,12 @@ footer {
     grid-row: 2;
   }
 
-  .navbar a {
-    font-size: 12pt; 
+  .navbar {
+    float: right;
+    padding: 10px 22px;
   }
+
+    .navbar a {
+      font-size: 12pt;
+    }
 }
