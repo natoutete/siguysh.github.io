@@ -104,21 +104,26 @@ main {
 
 #media {
   height: 670px;
-  display: grid;
-  grid-template-columns: repeat(1);
   background-color: #fff;
 }
 
   .grid_container {
     width: 100%;
+    #display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 4fr);
   }
     .item1 {
-      grid-column: 1;
-      grid-row: 1;
+      #grid-column: 1 / span 3;
     }
     .item2 {
-      grid-column: 1;
-      grid-row: 2;
+      grid-column: 1 / span 2;
+    }
+    .item3, p, h3 {
+      grid-column: 2 / span 2;
+    }
+    .item3 p, .item3 h3 {
+      float: left;
     }
 
 footer {
@@ -127,14 +132,20 @@ footer {
   background-color: #1C1E20;
   position: absolute;
   bottom: 0;
-  padding-bottom: 25px;
+  padding-bottom: 20px;
 }
 
-  .social {
-    position: absolute;
+  .foot {
     text-align: center;
-    top: 40%;
-    transform: translate(-50% 0);
+  	color: #fff;
+  	padding: 15px;
+  	font-size: 12pt;
+  }
+
+  .social {
+    text-align: center;
+    #top: 30%;
+    #transform: translate(-50% 0);
     width: 90%;
     margin: 0 5%;
     display: inline-block;
