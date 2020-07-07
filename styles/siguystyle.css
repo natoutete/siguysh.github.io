@@ -82,7 +82,7 @@ main {
 }
 
 #about {
-  height: 670px;
+  height: 730px;
   background-color: #1C1E20;
   display: grid;
   grid-template-columns: 50% auto;
