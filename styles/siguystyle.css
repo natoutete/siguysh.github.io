@@ -179,6 +179,11 @@ footer {
       background-size: cover;
     }
 
+  .row1 h1, .row2 h1 {
+    padding: 0 15px;
+    font-size: 28pt;
+  }
+
   .row1 {
     grid-column: 1, 4fr;
   }
