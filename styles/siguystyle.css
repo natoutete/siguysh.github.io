@@ -135,6 +135,34 @@ main {
       padding: 0;
     }
 
+    .grid_container {
+      display: block;
+    }
+      .grids {
+        display: block;
+        text-align: center;
+        object-fit: cover;
+        object-position: center;
+      }
+      .items {
+        width: 100%;
+        display: block;
+        background-color: #FD9C9F;
+        margin-bottom: 35px;
+      }
+
+      .items a {
+        width: 100px;
+        position: relative;
+        display: inline-block;
+        #background-color: #b9b9b9;
+      }
+
+        .items a:hover {
+          background-color: #ffe037;
+        }
+
+
     .grid-item {
       text-align: center;
       #padding: 20px;
@@ -173,8 +201,8 @@ main {
     }
 
 #media {
-  height: 670px;
-  background-color: #fff;
+  #height: 670px;
+  background-color: #1C1E20;
 }
 /*
   .grid_container {
